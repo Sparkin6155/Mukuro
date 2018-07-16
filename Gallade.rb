@@ -1,6 +1,6 @@
 require 'discordrb'
 
-TOKEN = 'NDY0OTU4OTg1MTU0MzMwNjQ0.DiVjng.8eqVMqg-3pw3PgzG2GHLVGdWwlo'
+TOKEN = 'NDY0OTU4OTg1MTU0MzMwNjQ0.Di6Vuw.DN2ZvGejSBb6tMBYgRosJYKEEf4'
 bot = Discordrb::Commands::CommandBot.new token: TOKEN, prefix: '.inexistant.'
 
 bot.message(from: 407066111033475072, in: 465980250677968916) do |event|
