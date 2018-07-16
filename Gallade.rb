@@ -3,7 +3,7 @@ require 'discordrb'
 TOKEN = 'NDY0OTU4OTg1MTU0MzMwNjQ0.DiVjng.8eqVMqg-3pw3PgzG2GHLVGdWwlo'
 bot = Discordrb::Commands::CommandBot.new token: TOKEN, prefix: '.inexistant.'
 
-bot.message(from: 286838535066222594, in: 465980250677968916) do |event|
+bot.message(from: 407066111033475072, in: 465980250677968916) do |event|
     bot.send_message(465600708948000789, event.message.content) #Spectator
     bot.send_message(465979089707335690, event.message.content) #Carbink
     bot.send_message(465980176543645696, event.message.content) #Entei
